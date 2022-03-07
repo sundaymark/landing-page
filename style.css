@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+  ul{
+     display: flex;
+     gap: 25px;
+    list-style-type: none;
+     
+ }
