@@ -16,3 +16,19 @@
     list-style-type: none;
      
  }
+
+ .body-sun{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 130px;
+ }
+
+ h2{
+     text-align: center;
+     padding-top: 80px;
+ }
+
+ .cards{
+     display: flex;
+     text-align: center;
+ }
