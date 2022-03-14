@@ -20,15 +20,105 @@
  .body-sun{
      display: flex;
      justify-content: space-around;
-     padding-top: 130px;
+     padding-top: 200px;
+     background-color: #1f2937;
+     
+     
  }
+
 
  h2{
      text-align: center;
      padding-top: 80px;
+     font-weight: 400px;
+     font-size: 40px;
  }
 
  .cards{
      display: flex;
      text-align: center;
+     gap: 30px;
+     justify-content: space-around;
+     width: 700px;
+     margin-left: 400px;
+     font-size: 18px;
+     padding-top: 50px;
  }
+
+ .card{
+     border: 2px solid blue;
+     border-radius: 20px;
+     height: 150px;
+     
+ }
+
+ .button1{
+     color: white;
+     background-color: blue;
+     padding: 15px;
+     border-radius: 10px;
+     width: 150px;
+ }
+
+ .second-para{
+     display: flex;
+     padding-top: 250px;
+     justify-content: space-around;
+     background-color: #E5E7EB;
+ }
+
+ .left-para{
+     font-size: 30px;
+ }
+
+ h3{
+     padding-top: 110px;
+ }
+
+ .call{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 150px;
+     margin-left: 150px;
+     background-color: rgb(179, 179, 196);
+ }
+
+ h4{
+     font-size: 24px;
+ }
+
+ .button2{
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+
+ }
+
+ .footer{
+     text-align: center;
+     color: whitesmoke;
+     background-color: #1f2937;
+     padding-top: 80px;
+     
+ }
+
+ .body-left{
+     color: whitesmoke
+ }
+
+ .body-right{
+     color: whitesmoke;
+     background-color: darkgrey;
+     width: 500px;
+     text-align: center;
+     padding-top: 100px;
+ }
+
+ .header{
+    background-color: #1f2937;
+    color: whitesmoke;
+
+ }
+
+ 
