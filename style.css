@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 
+
 }
 
 .header{
@@ -62,38 +63,60 @@
 
  .second-para{
      display: flex;
-     padding-top: 250px;
-     justify-content: space-around;
+     justify-content: center;
      background-color: #E5E7EB;
+     align-items: center;
+     height: 400px;
+ }
+
+ .quote{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
  }
 
  .left-para{
      font-size: 30px;
  }
 
- h3{
-     padding-top: 110px;
- }
+ 
 
  .call{
      display: flex;
-     justify-content: space-around;
-     padding-top: 150px;
-     margin-left: 150px;
-     background-color: rgb(179, 179, 196);
+     justify-content: center;
+     height: 250px;
+      align-items: center;  
  }
 
- h4{
+ .main-call{
+     background-color: #3882f6;
+     display: flex;
+     justify-content:space-around;
+     height: 100px;
+     width:800px ;
+     border-radius: 5px;
+     color: #f9fAf8;
+     align-items: center;
+     
+
+ }
+
+  h4{
      font-size: 24px;
- }
+ } 
 
- .button2{
+  .button2{
     color: white;
-    padding: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 150px;
+    background-color:#3882f6 ;
+    border: 2px #f9fAf8 solid;
+    width: 150px;
+    height: 40px;
+    font-size: larger;
 
- }
+ } 
 
  .footer{
      text-align: center;
